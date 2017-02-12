@@ -1,0 +1,40 @@
+// Place all the styles related to the User controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  border: 1px solid blue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*headings*/
+header {
+  background-color: rgba(146, 201, 182, 0.71);
+  height: 50vh;
+/*  display: block*/
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.time {
+  text-align: center;
+}
+/*home forcast*/
+td {
+  border: 1px solid black;
+}
+
+table {
+margin-left: 43%;  
+}
+
+/*choose section*/
+
+/*todays forcast section*/
+
+/*footer*/
+footer {
+  background-color: #363c41;
+  height: 20vh;
+  clear: both;
+}
